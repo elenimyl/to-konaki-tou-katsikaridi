@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="gr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="site_title">Το Κονάκι του Κατσικαρίδη</title>
+
+
+
+    <!-- CDN links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="header fixed-top">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <a href="index.html#home" class="logo" data-lang-key="site_title"><span> Το Κονάκι του Κατσικαρίδη</span></a>
+                <nav class="nav">
+                    <a href="index.html#home" data-lang-key="nav_home">Αρχική Σελίδα</a>
+                    <a href="index.html#about" data-lang-key="nav_about">Η Φιλοσοφία μας</a>
+                    <a href="ourmenu.html" data-lang-key="nav_menu">Μενού</a>
+                    <a href="index.html#reviews" data-lang-key="nav_reviews">Κριτικές</a>
+                    <a href="index.html#location" data-lang-key="nav_location">Τοποθεσία</a>
+                    <div class="lang-switch">
+                        <a href="#" class="lang-btn" data-lang="gr" onclick="setLanguage('gr'); return false;">GR</a> <span class="separator">|</span>
+                        <a href="#" class="lang-btn" data-lang="en" onclick="setLanguage('en'); return false;">EN</a>
+                    </div>
+                </nav>
+                <a href="ourmenu.html" class="link-btn" data-lang-key="btn_menu">Δείτε το Μενού</a>
+
+
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </div>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!--our menu section starts-->
+    <section class="ourmenu" id="ourmenu">
+        <h1 class="heading" data-lang-key="ourmenu_title">Το Μενού Μας</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="content">
+                    <h3 data-lang-key="menu_cat_salads">Σαλάτες</h3>
+                    <div class="menu-list">
+                        <div class="menu-item"><span data-lang-key="item_greek_salad">Χωριάτικη</span><span>11,50€</span> <span class="description" data-lang-key="item_greek_salad_desc">ντομάτα, αγγούρι, κρεμμύδι, πιπεριά, φέτα, ελιές, φρέσκια ρίγανη, κριθαρένιο παξιμάδι, κρίταμο</span></div>
+
+                        <div class="menu-item"><span data-lang-key="item_konaki_salad">Κονάκι</span><span>12,00€</span> <span class="description" data-lang-key="item_konaki_salad_desc">μαρούλι, λάχανο, καρότο, σύκα τσαπέλα, καρύδια, μανούρι στη σχάρα, σάλτσα βαλσάμικο με μέλι, ραπανάκι</span></div>
+
+                        <div class="menu-item"><span data-lang-key="item_dakos">Ντάκος</span><span>8,50€</span> <span class="description" data-lang-key="item_dakos_desc">κριθαρένια παξιμάδια, φρέσκια ντομάτα, φέτα, ελιές, φρέσκια ρίγανη</span></div>
+
+                        <div class="menu-item"><span data-lang-key="item_seasonal_greens">Χόρτα εποχής</span><span>6,00€</span> <span class="description" data-lang-key="item_seasonal_greens_desc">αφράλατο, ελαιόλαδο</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <h3 data-lang-key="menu_cat_cheeses">Τυριά</h3>
+                    <div class="menu-list">
+                        <div class="menu-item"><span data-lang-key="item_feta_cheese">Φέτα</span><span>6,00€</span>
+                       </div>
+
+                       <div class="menu-item"><span data-lang-key="item_graviera">Γραβιέρα</span><span>7,30€</span>  
+                       </div>
+
+                       <div class="menu-item"><span data-lang-key="item_sfela">Σφέλα</span><span>6,00€</span>  
+                       </div>
+
+                       <div class="menu-item"><span data-lang-key="item_talagani">Ταλαγάνι σχάρας με μαρμελάδα σύκο</span><span>7,90€</span>  
+                       </div>
+
+                       <div class="menu-item"><span data-lang-key="item_kefalotyri">Κεφαλοτύρι σαγανάκι</span><span>6,00€</span>  
+                       </div>
+
+                       <div class="menu-item"><span data-lang-key="item_manouri">Μανούρι</span><span>5,80€</span>  
+                       </div>
+
+                    <div class="menu-item"><span data-lang-key="item_variety">Ποικιλία τυριών</span> <span class="description" data-lang-key="item_variety_desc">Καθημερινά προμηθευόμαστε τυριά από Μεσσήνιους παραγωγούς. Ρωτήστε μας για τις επιλογές σας και δημιουργήστε το πλατό σας.</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <h3 data-lang-key="menu_cat_appetizers">Ορεκτικά</h3>
+                    <div class="menu-list">
+                        <div class="menu-item"><span data-lang-key="item_potatoes_eggs">Πατάτες με αυγά</span><span>9,00€</span> <span class="description" data-lang-key="item_potatoes_eggs_desc">φρέσκιες ροδέλες πατάτας, χωριάτικα αυγά, κρέμα φέτας</span>
+                       </div>
+
+                        <div class="menu-item"><span data-lang-key="item_feta_bouyiourdi">Φέτα μπουγιουρντί</span><span>8,80€</span> <span class="description" data-lang-key="item_feta_bouyiourdi_desc">τοπική φέτα, φρέσκιες ντομάτες, καυτερή πιπεριά, λαδορίγανη</span> 
+                       </div>
+
+                       <div class="menu-item"><span data-lang-key="item_cheese_dumplings">Τυρολουκουμάδες</span><span>9,00€</span> <span class="description" data-lang-key="item_cheese_dumplings_desc">γραβιέρα, κεφαλοτύρι, μαρμελάδα ντομάτας, φρέσκος δυόσμος</span> 
+                       </div>
+
+                       <div class="menu-item"><span data-lang-key="item_eggplant_zucchini">Μελιτζάνες και κολοκυθάκια τηγανιτά</span><span>7,80€</span> <span class="description" data-lang-key="item_eggplant_zucchini_desc">κουρκούτι μπύρας, κρέμα γιαούρτι</span> 
+                       </div>
+
+                       <div class="menu-item"><span data-lang-key="item_kolokithokeftedes">Κολοκυθoκεφτεδες</span><span>8,00€</span> <span class="description" data-lang-key="item_kolokithokeftedes_desc">πράσινο κολοκύθι, τοπική φέτα, φρέσκος δυόσμος, πορτοκάλι</span> 
+                       </div>
+
+                       <div class="menu-item"><span data-lang-key="item_kayanas">Καγιανάς</span><span>10,50€</span> <span class="description" data-lang-key="item_kayanas_desc">χωριάτικα αυγά, φρέσκια ντομάτα, παστό, τριμμένη σφέλα</span> 
+                       </div>
+
+                       <div class="menu-item"><span data-lang-key="item_meatballs_sauce">Κεφτεδάκια με σάλτσα</span><span>10,00€</span> <span class="description" data-lang-key="item_meatballs_sauce_desc">φρεσκοζυμωμένα κεφτεδάκια, πατάτες, σάλτσα ντομάτας</span> 
+                       </div>
+
+                       <div class="menu-item"><span data-lang-key="item_tzatziki">Παραδοσιακό τζατζίκι</span><span>5,80€</span> 
+                       </div>
+
+                       <div class="menu-item"><span data-lang-key="item_cheese_cream">Χειροποίητη τυροκαυτερή</span><span>7,80€</span> 
+                       </div>
+
+                       <div class="menu-item"><span data-lang-key="item_potatoes_mizithra">Πατάτες με μυζήθρα/χωρίς</span><span>5,00€/5,50€</span> 
+                       </div>
+
+                       <div class="menu-item"><span data-lang-key="item_sausage">Χωριάτικο λουκάνικο</span><span>10,00€</span> <span class="description" data-lang-key="item_sausage_desc">παραδοσιακό με πορτοκάλι</span> 
+                       </div>                       
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <h3 data-lang-key="menu_cat_main">Κυρίως Πιάτα</h3>
+                    <div class="menu-item"><span data-lang-key="item_gournopoula">Παραδοσιακή γουρνοπούλα</span><span>33,00€/kg</span> <span class="description" data-lang-key="item_gournopoula_desc">φρεσκοψημένη από το φούρνο μας, με το κιλό<br>*ελάχιστη παραγγελία 500γρ.</span> 
+                    </div> 
+                    
+                    <div class="menu-item"><span data-lang-key="item_gournopoula_portion">Παραδοσιακή γουρνοπούλα μερίδα</span><span>15,00€</span> <span class="description" data-lang-key="item_gournopoula_portion_desc">σερβίρεται με ροδέλες πατάτες, πιτούλες και τζατζίκι</span> 
+                    </div> 
+
+                    <h4 data-lang-key="grill" class="heading">Από τη σχάρα μας</h4>
+
+                    <div class="menu-list">
+                        <div class="menu-item"><span data-lang-key="item_beef_burger">Μοσχαρίσια μπιφτεκάκια</span><span >12,00€/13,00€</span> <span class="description" data-lang-key="item_beef_burger_desc">απλά / γεμιστά με φέτα</span></div>
+
+                        <div class="menu-item"><span data-lang-key="item_pork_spit">Χοιρινή σούβλα</span><span >12,00€</span> <span class="description" data-lang-key="item_pork_spit_desc">ατομικό παραδοσιακό κοντοσούβλι</span></div>
+
+                        <div class="menu-item"><span data-lang-key="item_chicken_filet">Φιλέτο κοτόπουλο</span><span >11,00€</span></div>
+
+                        <div class="menu-item"><span data-lang-key="item_beef_liver">Μοσχαρίσιο συκώτι</span><span >13,80€</span></div>
+
+                        <div class="menu-item"><span data-lang-key="item_pork_steak">Χοιρινή μπριζόλα</span><span >11,00€</span></div>
+
+                        <div class="menu-item"><span data-lang-key="item_pork_belly">Χοιρινή πανσέτα</span><span >11,80€</span></div>
+
+                        <div class="menu-item"><span data-lang-key="item_beef_cut">Μοσχαρίσια κοπή</span></div>
+
+                        <div class="options"><span class="description" data-lang-key="options_desc1">Ρωτήστε μας για τις επιλογές σας...</span><br><br><span class="description" data-lang-key="options_desc2">Όλα τα ψητά μας συνοδεύονται με ροδέλες πατάτες και πράσινη σαλάτα.</span></div>    
+                        
+                        <div class="menu-item"><span data-lang-key="item_meat_variety">Ποικιλία κρεατικών</span><span>45,00€</span><span class="description" data-lang-key="item_meat_variety_desc">μπιφτεκάκια, φιλέτο κοτόπουλο, χωριάτικο λουκάνικο, γουρνοπούλα, ροδέλες πατάτες, πιτούλες, τζατζίκι ή τυροκαυτερή</span></div>
+                    </div>
+                </div>               
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <h3 data-lang-key="menu_cat_daily_dishes" class="daily-dishes">Πιάτα ημέρας</h3>
+                    <div class="menu-list">
+                        <div class="menu-item daily-dishes-item"><span data-lang-key="item_daily_dishes">Πιάτα ημέρας</span><span class="description" data-lang-key="item_daily_dishes_desc">Όλα μας τα πιάτα παρασκευάζονται από αγνά ελληνικά υλικά και είναι χειροποίητα.</span></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!--our menu section ends-->
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="box-container container">
+
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <h3 data-lang-key="footer_phone">Τηλέφωνο</h3>
+                <p data-lang-key="footer_phone_number"><a href="tel:+302723022772" class="info">+30 2723022772</a></p>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3 data-lang-key="footer_address">Διεύθυνση</h3>
+                <p><a href="https://maps.app.goo.gl/4RTwwAuMHnaNDugS8" class="info" data-lang-key="footer_address_text" target="_blank">Παραλία Γιάλοβας, 24001</a></p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-clock"></i>
+                <h3 data-lang-key="footer_hours">Ώρες Λειτουργίας</h3>
+                <p data-lang-key="footer_hours_text">Καθημερινά: 01.00μμ - 12.00πμ
+                </p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <h3 data-lang-key="footer_email">Email</h3>
+                <p data-lang-key="footer_email_text"><a href="mailto:tokonakitoukatsikaridi@gmail.com" class="info">tokonakitoukatsikaridi@gmail.com</a>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="credit"> &copy; Copyright @ <span id="current-year"></span> by <span>To Konaki tou Katsikaridi</span>
+        </div>
+    </section>
+    <!-- footer section ends -->
+
+
+
+
+
+
+    <!-- Custom JS file link -->
+    <script src="translations.js"></script>
+    <script src="language.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
