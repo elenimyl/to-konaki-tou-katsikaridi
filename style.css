@@ -516,7 +516,8 @@ section {
 }
 
 .footer .box-container .box p a[href^="mailto"] {
-    white-space: nowrap;
+    white-space: normal;
+    word-break: break-all;
     font-size: 1.3rem;
 }
 
