@@ -7,6 +7,7 @@ const translations = {
         "nav_menu": "Μενού",
         "nav_reviews": "Κριτικές",
         "nav_location": "Τοποθεσία",
+        "nav_album": "Το Άλμπουμ μας",
         "btn_menu": "Δείτε το Μενού",
 
         // --- Αρχική (Home Section) ---
@@ -38,6 +39,10 @@ const translations = {
 
         // --- Τοποθεσία (Location Section) ---
         "location_title": "Τοποθεσία",
+
+        // --- Album (album.html) ---
+        "album_title": "Το Άλμπουμ Μας",
+        "album_desc": "Μια ματιά στον ανανεωμένο μας χώρο και στα πιάτα μας!",
 
         // --- Το Μενού Μας (ourmenu.html) ---
         "ourmenu_title": "Το Μενού Μας",
@@ -116,12 +121,11 @@ const translations = {
 
 
         // --- Footer ---
-        "footer_phone": "Τηλέφωνο",
-        "footer_address": "Διεύθυνση",
-        "footer_hours": "Ώρες Λειτουργίας",
+        "footer_desc": "Παραδοσιακές γεύσεις και αυθεντική φιλοξενία δίπλα στο κύμα.",
+        "footer_links_title": "Γρήγορη Πλοήγηση",
+        "footer_contact_title": "Επικοινωνία & Ωράριο",
         "footer_hours_text": "Καθημερινά: 01.00μμ - 12.00πμ",
         "footer_address_text": "Παραλία Γιάλοβας, 24001",
-        "footer_social": "Social Media"
     },
 
     "en": {
@@ -132,6 +136,7 @@ const translations = {
         "nav_menu": "Menu",
         "nav_reviews": "Reviews",
         "nav_location": "Location",
+        "nav_album": "Our Album",
         "btn_menu": "View Menu",
 
         // --- Αρχική (Home Section) ---
@@ -166,6 +171,10 @@ const translations = {
 
         // --- Τοποθεσία (Location Section) ---
         "location_title": "Location",
+
+        // --- Album (album.html) ---
+        "album_title": "Our Album",
+        "album_desc": "A glimpse into our renovated space and dishes!",
 
         // --- Το Μενού Μας (ourmenu.html) ---
         "ourmenu_title": "Our Menu",
@@ -244,11 +253,10 @@ const translations = {
 
 
         // --- Footer ---
-        "footer_phone": "Phone",
-        "footer_address": "Address",
-        "footer_hours": "Opening Hours",
+        "footer_desc": "Traditional flavors and authentic hospitality by the sea.",
+        "footer_links_title": "Quick Links",
+        "footer_contact_title": "Contact & Hours",
         "footer_hours_text": "Daily: 01.00pm - 12.00am",
         "footer_address_text": "Gialova Beach, 24001",
-        "footer_social": "Social Media"
     }
 };

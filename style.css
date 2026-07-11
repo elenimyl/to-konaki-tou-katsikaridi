@@ -457,115 +457,155 @@ section {
 }
 
 
-
 /*FOOTER SECTION*/
 .footer {
-    background-color: #efedeb;
+    background-color: var(--color-cream); 
 }
 
-.footer .box-container {
+.footer .categories-layout {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-    gap: 4rem;
+    grid-template-columns: 1fr auto 1fr auto 1fr; 
+    gap: 3rem; 
+    align-items: flex-start; 
+    text-align: left; 
 }
 
-.footer .box-container .box {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100%;
+.footer-divider {
+    width: 1px; 
+    background-color: var(--color-gray); 
+    height: 100%; 
+    min-height: 200px;
+    opacity: 0.5; 
+    margin: 0 1rem;
 }
 
-.footer .box-container .box i {
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
-    line-height: 4rem;
-    font-size: 1.6rem;
-    background-color: var(--color-brand-green);
-    color: var(--white);
+.footer-divider-mobile {
+    display: none;
 }
 
-.footer .box-container .box h3 {
-    font-size: 1.7rem;
-    margin: 1.5rem 0;
+.footer .categories-layout .footer-box h3 {
+    font-size: 2.3rem;
     color: var(--color-mocca);
-    min-height: 5rem;
+    margin-bottom: 2.5rem;
+    justify-content: flex-start;
+    min-height: auto;
+}
+
+/* text and links */
+.footer .categories-layout .footer-box p {
+    font-size: 1.8rem;
+    color: var(--color-dark-brown);
+    margin-bottom: 1.5rem;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
 }
 
-.footer .box-container .box p {
-    font-size: 1.3rem;
+.footer .categories-layout .footer-box p i {
+    color: var(--color-brand-green);
+    font-size: 1.8rem;
+    margin-top: 0.3rem;
+}
+
+/* Quick Links */
+.footer .categories-layout .footer-box.links a {
+    font-size: 1.8rem;
+    color: var(--color-dark-brown);
+    margin-bottom: 1.5rem;
+    display: block; 
+    transition: 0.3s;
+}
+
+.footer .categories-layout .footer-box.links a:hover {
     color: var(--color-terracotta);
-    line-height: 2;
-    text-transform: none;
-    word-break: break-word;
+    transform: translateX(5px); 
 }
 
-.footer .box-container .box p a.info {
-    color: var(--color-terracotta);
-    line-height: 2;
-    font-size: 1.3rem;
-    text-decoration: underline var(--color-terracotta);
-    text-underline-offset: 5px;
-    text-decoration-thickness: 2px;
+/* Social Media Buttons */
+.footer .categories-layout .footer-box .share {
+    margin-top: 1.5rem;
 }
 
-.footer .box-container .box p a[href^="mailto"] {
-    white-space: normal;
-    word-break: break-all;
-    font-size: 1.3rem;
-}
-
-.footer .box-container .box p a.info:hover {
-    color: var(--color-olive);
-    line-height: 2;
-    font-size: 1.3rem;
-    text-decoration: underline var(--color-brand-green);
-    text-underline-offset: 5px;
-    text-decoration-thickness: 2px;
-}
-
-.footer .box-container .box .share {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-
-.footer .box-container .box .share a {
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
+.footer .categories-layout .footer-box .share a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
     border-radius: 50%;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--white);
     background-color: var(--color-brand-green);
-    margin: 0 .3rem;
+    margin-right: 1rem;
     text-align: center;
     display: inline-block;
     transition: 0.3s ease;
 }
 
-.footer .box-container .box .share a:hover {
+.footer .categories-layout .footer-box .share a:hover {
     background-color: var(--color-terracotta);
-    color: var(--white);
+}
+
+/* links footer */
+.footer .categories-layout .footer-box p a.info {
+    text-decoration: none;
+    color: var(--color-terracotta);
+    line-height: 2;
+    font-size: 1.8rem;
+    text-decoration: underline var(--color-terracotta);
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+.footer .categories-layout .footer-box p a.info:hover {
+    text-decoration: underline var(--color-brand-green);
 }
 
 .footer .credit {
     text-align: center;
-    border-top: var(--border);
-    padding-top: 2rem;
-    margin-top: 2rem;
-    font-size: 2rem;
-    color: var(--black);
-    padding-bottom: 2rem;
+    border-top: 1px solid var(--color-gray); 
+    padding-top: 2.5rem;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    color: var(--color-dark-brown);
 }
 
 .footer .credit span {
-    color: var(--color-terracotta);
+    color: var(--color-terracotta); 
+    font-weight: 600; 
+}
+
+
+@media (max-width: 768px) {
+    .footer .categories-layout {
+        grid-template-columns: 1fr !important; 
+        text-align: center !important;
+        gap: 3rem;
+    }
+    
+    .footer-divider {
+        display: none !important; 
+    }
+    
+    .footer-divider-mobile {
+        display: block;
+        height: 1px;
+        width: 60%; 
+        background-color: var(--color-gray);
+        margin: 0 auto; 
+        opacity: 0.5;
+    }
+
+    .footer .categories-layout .footer-box {
+        align-items: center !important;
+    }
+    
+    .footer .categories-layout .footer-box h3 {
+        justify-content: center !important;
+        text-align: center;
+    }
+    
+    .footer .categories-layout .footer-box p {
+        justify-content: center !important;
+        text-align: center;
+    }
 }
 
 
@@ -839,4 +879,45 @@ section {
     .menu-divider-img img {
         height: 30vh;
     }
+}
+
+/* Our Album page */
+.album-page .gallery-item {
+    height: 35rem;  
+    padding: 2;
+    background-color: transparent; 
+    box-shadow: none; 
+}
+
+.album-page .gallery-item img {
+    width: 100%;
+    height: 100%;    
+    object-fit: cover; 
+    object-position: center 70%; 
+    border-radius: .5rem;
+    max-height: 300px;
+    box-shadow: var(--box-shadow); 
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .album-page .gallery-item {
+        height: 25rem;
+    }
+}
+
+/* NAVBAR */
+
+.header .container {
+    max-width: 1400px; 
+}
+
+
+.header .nav a {
+    margin: 0 0.7rem; 
+    font-size: 1.6rem; 
+}
+
+.link-btn {
+    padding: 1rem 2rem; 
 }
