@@ -492,6 +492,10 @@ section {
     font-size: 1.7rem;
     margin: 1.5rem 0;
     color: var(--color-mocca);
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer .box-container .box p {
@@ -692,7 +696,7 @@ section {
         grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
         gap: 2rem;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
     }
 }
 
