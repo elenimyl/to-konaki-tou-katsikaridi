@@ -73,7 +73,7 @@ const translations = {
         "item_eggplant_zucchini_desc": "κουρκούτι μπύρας, κρέμα γιαούρτι",
         "item_kolokithokeftedes": "Κολοκυθoκεφτέδες",
         "item_kolokithokeftedes_desc": "πράσινο κολοκύθι, τοπική φέτα, φρέσκος δυόσμος, πορτοκάλι",
-        "item_kayanas": "Καγιανάς με παστό",
+        "item_kayanas": "Καγιανάς με παστό/χωρίς",
         "item_kayanas_desc": "χωριάτικα αυγά, φρέσκια ντομάτα, παστό, τριμμένη σφέλα",
         "item_meatballs_sauce": "Κεφτεδάκια με σάλτσα",
         "item_meatballs_sauce_desc": "φρεσκοζυμωμένα κεφτεδάκια, πατάτες, σάλτσα ντομάτας",
@@ -120,7 +120,8 @@ const translations = {
         "footer_address": "Διεύθυνση",
         "footer_hours": "Ώρες Λειτουργίας",
         "footer_hours_text": "Καθημερινά: 01.00μμ - 12.00πμ",
-        "footer_address_text": "Παραλία Γιάλοβας, 24001"
+        "footer_address_text": "Παραλία Γιάλοβας, 24001",
+        "footer_social": "Social Media"
     },
 
     "en": {
@@ -201,7 +202,7 @@ const translations = {
         "item_eggplant_zucchini_desc": "beer batter, yogurt cream",
         "item_kolokithokeftedes": "Zucchini Meatballs",
         "item_kolokithokeftedes_desc": "green zucchini, local feta cheese, fresh mint, orange",
-        "item_kayanas": "Kayanas - Scrambled eggs with salted meat",
+        "item_kayanas": "Kayanas - Scrambled eggs with/without 'pasto'",
         "item_kayanas_desc": "farm eggs, fresh tomato, salted meat, grated sfela cheese",
         "item_meatballs_sauce": "Meatballs with red sauce",
         "item_meatballs_sauce_desc": "freshly kneaded meatballs, potatoes, tomato sauce",
@@ -247,6 +248,7 @@ const translations = {
         "footer_address": "Address",
         "footer_hours": "Opening Hours",
         "footer_hours_text": "Daily: 01.00pm - 12.00am",
-        "footer_address_text": "Gialova Beach, 24001"
+        "footer_address_text": "Gialova Beach, 24001",
+        "footer_social": "Social Media"
     }
 };

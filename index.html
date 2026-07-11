@@ -15,6 +15,42 @@
 
     <!-- Custom CSS file -->
     <link rel="stylesheet" href="style.css">
+
+    <meta name="description" content="Το Κονάκι του Κατσικαρίδη: Παραδοσιακή ταβέρνα στην παραλία της Γιάλοβας. Απολαύστε αυθεντική μεσσηνιακή γουρνοπούλα, ψητά της ώρας και χειροποίητα πιάτα δίπλα στο κύμα.">
+    <meta name="keywords" content="ταβέρνα Γιάλοβα, εστιατόριο Γιάλοβα, καλό φαγητό Γιάλοβα, ταβέρνες παραλία Γιάλοβας, εστιατόρια κοντά στην Πύλο, φαγητό Μεσσηνία, γουρνοπούλα Γιάλοβα, παραδοσιακή γουρνοπούλα Μεσσηνία, ψητά κρέατα Γιάλοβα, παραδοσιακό κοντοσούβλι, μεσσηνιακή κουζίνα, οικογενειακή ταβέρνα Γιάλοβα, ταβέρνα δίπλα στη θάλασσα, αυθεντικό ελληνικό φαγητό, Το Κονάκι του Κατσικαρίδη, restaurants in Gialova, best tavern Gialova, places to eat in Gialova beach, dining in Gialova, traditional Greek food Gialova, authentic Greek cuisine, Greek tavern Gialova, roasted pork Messinia, gournopoula, seaside restaurant Gialova, family tavern Greece">
+
+    <script type="application/ld+json">
+     {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Το Κονάκι του Κατσικαρίδη",
+      "image": "https://www.tokonakitoukatsikaridi.gr/images/logo-konaki.jpg", 
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Παραλία Γιάλοβας",
+        "postalCode": "24001",
+        "addressCountry": "GR"
+      },
+      "telephone": "+302723022772",
+      "email": "tokonakitoukatsikaridi@gmail.com",
+      "url": "https://www.tokonakitoukatsikaridi.gr",
+      "servesCuisine": "Greek, Traditional",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+          ],
+          "opens": "13:00",
+          "closes": "00:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/share/1BS15jGFNN/?mibextid=wwXIfr",
+        "https://www.instagram.com/to_konaki_tou_katsikaridi?igsh=MTZtYjVvM2cyajFvaA=="
+      ]
+     }
+    </script>
 </head>
 
 <body>
@@ -62,8 +98,8 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 image">
-                    <img src="images/IMG_0300.jpeg" class="w-100 mb-5 mb-md-0"
-                        alt="about image">
+                    <img src="images/IMG_6953.jpeg" class="w-100 mb-5 mb-md-0"
+                    alt="Ελληνική παραδοσιακή ταβέρνα στη Γιάλοβα Μεσσηνίας με φρέσκια γουρνοπούλα και καλό φαγητό">
                 </div>
                 <div class="col-md-6 content">
                     <span data-lang-key="about_subtitle">Το Κονάκι του Κατσικαρίδη</span>
@@ -76,9 +112,24 @@
     </section>
     <!-- about section ends -->
 
+    <!-- atmosphere section starts -->
+    <section class="atmosphere" id="atmosphere">
+        <div class="atmosphere-container">
+            <div class="photo-gallery">
+                <div class="gallery-item">
+                    <img src="images/IMG_6954.jpeg" alt="Ατμόσφαιρα Κονάκι" class="zoom-wine">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/IMG_6955.jpeg" alt="Βραδινή Ατμόσφαιρα" class="zoom-view">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/DSCF7132.jpg" alt="Το τραπέζι μας" class="zoom-atmos">
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- atmosphere section ends -->
 
-    <!-- menu section starts -->
-    <!-- menu section ends -->
 
 
     <!-- reviews section starts -->
@@ -203,6 +254,15 @@
                 </p>
             </div>
 
+            <div class="box">
+                <i class="fas fa-share-nodes"></i>
+                <h3 data-lang-key="footer_social">Social Media</h3>
+                <div class="share">
+                    <a href="https://www.facebook.com/share/1BS15jGFNN/?mibextid=wwXIfr" class="fab fa-facebook-f" target="_blank"></a>
+                    <a href="https://www.instagram.com/to_konaki_tou_katsikaridi?igsh=MTZtYjVvM2cyajFvaA==" class="fab fa-instagram" target="_blank"></a>
+                </div>
+            </div>
+
 
 
         </div>
@@ -212,7 +272,6 @@
     </section>
     <!-- footer section ends -->
 
-
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -220,6 +279,12 @@
     <script src="translations.js"></script>
     <script src="language.js"></script>
     <script src="script.js"></script>
+
+     <!-- Lightbox Structure -->
+    <div id="myLightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
 
  </body>
 
