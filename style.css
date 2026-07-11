@@ -631,6 +631,29 @@ section {
         width: auto;
     }
 
+    .footer {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 3rem 2rem;
+    }
+
+    .footer .box-container .box{
+        height: auto;
+        width: 100%;
+    }
+
+    .footer .box-container .box .map {
+        height: 100%;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .footer .box-container .box .map iframe{
+        height: 100%;
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
     
 }
 
@@ -666,7 +689,7 @@ section {
     }
 
     .footer .box-container {
-        grid-template-columns: repeat(2, minmax(25rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
         gap: 2rem;
         justify-content: center;
         align-items: center;
