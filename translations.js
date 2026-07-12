@@ -111,13 +111,6 @@ const translations = {
         "menu_cat_daily_dishes": "Πιάτα ημέρας",
         "item_daily_dishes": "Πιάτα ημέρας",
         "item_daily_dishes_desc": "Όλα μας τα πιάτα παρασκευάζονται από αγνά ελληνικά υλικά και είναι χειροποίητα.",
-        
-        
-    
-        
-        
-        
-
 
 
         // --- Footer ---
@@ -164,9 +157,6 @@ const translations = {
         "review_6_text": "The best gournopoula in Messinia!! Worth visiting!!",
         "review_7_name": "Χρήστος Β.",
         "review_7_text": "Wonderful place and quality food! Perfect result and the staff experienced and smiling!",
-
-
-
 
 
         // --- Τοποθεσία (Location Section) ---
@@ -247,8 +237,6 @@ const translations = {
         
 
 
-
-        
         
 
 

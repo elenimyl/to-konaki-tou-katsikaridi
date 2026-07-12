@@ -134,7 +134,6 @@ h1, h2, h3, h4 {
     border: 0;
 }
 
-
 section {
     padding: 7rem 2rem;
 }
@@ -172,7 +171,6 @@ section {
     align-items: center;
     text-align: center;
     margin-top: 1rem;
-
 }
 
 
@@ -913,7 +911,6 @@ section {
 .header .container {
     max-width: 1400px; 
 }
-
 
 .header .nav a {
     margin: 0 0.7rem; 

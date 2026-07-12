@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    // close when user clicks the "Escape" button on the keyboard
+    // close when user clicks the esc button on the keyboard
     document.addEventListener("keydown", function(e) {
         if (e.key === "Escape" && lightbox.style.display === "flex") {
             lightbox.style.display = "none";
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-// Auto-update copyright year
+// Auto update copyright year
 document.addEventListener("DOMContentLoaded", function() {
     const yearSpan = document.getElementById("current-year");
     if (yearSpan) {
