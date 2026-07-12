@@ -31,10 +31,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const images = document.querySelectorAll(".photo-gallery img");
     const closeBtn = document.querySelector(".close-btn");
 
-    // Αν δεν υπάρχει η gallery στη συγκεκριμένη σελίδα, σταματάμε τον κώδικα
+    
     if (!lightbox || !lightboxImg) return; 
 
-    // λειτουργία κλικ σε κάθε φωτογραφία της gallery
+    // click gallery image
     images.forEach(img => {
         img.addEventListener("click", function() {
             lightbox.style.display = "flex"; 
@@ -42,21 +42,21 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Κλείσιμο όταν ο χρήστης πατήσει το "X"
+    // close when user clicks the "X"
     if (closeBtn) {
         closeBtn.addEventListener("click", function() {
             lightbox.style.display = "none";
         });
     }
 
-    // Κλείσιμο όταν ο χρήστης πατήσει οπουδήποτε έξω από τη φωτογραφία
+    // close when user clicks outside the image
     lightbox.addEventListener("click", function(e) {
         if (e.target === lightbox) {
             lightbox.style.display = "none";
         }
     });
 
-    // Κλείσιμο και με το κουμπί 'Escape' στο πληκτρολόγιο
+    // close when user clicks the "Escape" button on the keyboard
     document.addEventListener("keydown", function(e) {
         if (e.key === "Escape" && lightbox.style.display === "flex") {
             lightbox.style.display = "none";

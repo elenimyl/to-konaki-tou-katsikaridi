@@ -497,14 +497,14 @@ section {
     color: var(--color-dark-brown);
     margin-bottom: 1.5rem;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 1.5rem;
 }
 
 .footer .categories-layout .footer-box p i {
     color: var(--color-brand-green);
     font-size: 1.8rem;
-    margin-top: 0.3rem;
+    margin-top: 0;
 }
 
 /* Quick Links */
