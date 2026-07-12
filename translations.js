@@ -44,6 +44,10 @@ const translations = {
         "album_title": "Το Άλμπουμ Μας",
         "album_desc": "Μια ματιά στον ανανεωμένο μας χώρο και στα πιάτα μας!",
 
+        "filter_all": "Όλα",
+        "filter_space": "Ο Χώρος",
+        "filter_food": "Τα Πιάτα μας",
+
         // --- Το Μενού Μας (ourmenu.html) ---
         "ourmenu_title": "Το Μενού Μας",
         
@@ -165,6 +169,10 @@ const translations = {
         // --- Album (album.html) ---
         "album_title": "Our Album",
         "album_desc": "A glimpse into our renovated space and dishes!",
+
+        "filter_all": "All",
+        "filter_space": "Our Space",
+        "filter_food": "Our Dishes",
 
         // --- Το Μενού Μας (ourmenu.html) ---
         "ourmenu_title": "Our Menu",

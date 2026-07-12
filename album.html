@@ -43,67 +43,82 @@
     <section class="album-page" id="album-page" style="padding-top: 12rem; min-height: 70vh;">
         <h1 class="heading" data-lang-key="album_title">Το Άλμπουμ μας</h1>
         <p style="text-align: center; font-size: 1.8rem; color: var(--color-dark-brown); margin-bottom: 4rem;" data-lang-key="album_desc">Μια ματιά στον ανανεωμένο μας χώρο και στα πιάτα μας!</p>
-        <div class="photo-gallery" style="margin: 0 auto; max-width: 1200px;">
-            <div class="gallery-item">
-                <img src="images/IMG_0713.jpeg" alt="Φωτογραφία 1">
+       
+        <!-- Filter Buttons -->
+        <div class="album-filters">
+            <button class="filter-btn active" data-filter="all" data-lang-key="filter_all">Όλα</button>
+            <button class="filter-btn" data-filter="space" data-lang-key="filter_space">Ο Χώρος</button>
+            <button class="filter-btn" data-filter="food" data-lang-key="filter_food">Τα Πιάτα μας</button>
+        </div>
+
+       <div class="photo-gallery" style="margin: 0 auto; max-width: 1200px;">
+            
+            <div class="gallery-item" data-category="space">
+                <img src="images/IMG_0745.jpeg" alt="Το Κονάκι του Κατσικαρίδη - Εξωτερική όψη">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0708.jpeg" alt="Φωτογραφία 2">
+            <div class="gallery-item" data-category="space">
+                <img src="images/IMG_0781.jpeg" alt="Το Κονάκι του Κατσικαρίδη - Είσοδος">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0717.jpeg" alt="Φωτογραφία 3">
+            <div class="gallery-item" data-category="space">
+                <img src="images/IMG_0743.jpeg" alt="Τραπέζια δίπλα στη θάλασσα">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0718.jpeg" alt="Φωτογραφία 4">
+            <div class="gallery-item" data-category="space">
+                <img src="images/IMG_0713.jpeg" alt="Πέτρινος τοίχος και ρουστίκ φωτιστικά">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0719.jpeg" alt="Φωτογραφία 5">
+            <div class="gallery-item" data-category="space">
+                <img src="images/IMG_0780.jpeg" alt="Παραδοσιακή διακόσμηση εστιατορίου">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0721.jpeg" alt="Φωτογραφία 6">
+
+           
+            <div class="gallery-item" data-category="space">
+                <img src="images/IMG_0708.jpeg" alt="Στρωμένο τραπέζι με θέα">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0723.jpeg" alt="Φωτογραφία 7">
+            <div class="gallery-item" data-category="space">
+                <img src="images/IMG_0774.jpeg" alt="Πλούσιο τραπέζι δίπλα στο κύμα">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0724.jpeg" alt="Φωτογραφία 8">
+            <div class="gallery-item" data-category="space">
+                <img src="images/IMG_0724.jpeg" alt="Γεύμα με θέα τη θάλασσα">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0725.jpeg" alt="Φωτογραφία 9">
+
+            <div class="gallery-item" data-category="food">
+                <img src="images/IMG_0727.jpeg" alt="Παρέα μοιράζεται παραδοσιακό φαγητό">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0726.jpeg" alt="Φωτογραφία 10">
+            <div class="gallery-item" data-category="food">
+                <img src="images/IMG_0726.jpeg" alt="Γεμάτο τραπέζι με μεσσηνιακά πιάτα">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0727.jpeg" alt="Φωτογραφία 11">
+            <div class="gallery-item" data-category="food">
+                <img src="images/IMG_0725.jpeg" alt="Ζουμερή μπριζόλα με θέα τη θάλασσα">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0731.jpeg" alt="Φωτογραφία 12">
+            <div class="gallery-item" data-category="food">
+                <img src="images/IMG_0718.jpeg" alt="Παραδοσιακή γουρνοπούλα">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0738.jpeg" alt="Φωτογραφία 13">
+            <div class="gallery-item" data-category="food">
+                <img src="images/IMG_0731.jpeg" alt="Χειροποίητο κοντοσούβλι">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0743.jpeg" alt="Φωτογραφία 14">
+            <div class="gallery-item" data-category="food">
+                <img src="images/IMG_0723.jpeg" alt="Ζουμερά ψητά κρέατα">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0745.jpeg" alt="Φωτογραφία 15">
+            <div class="gallery-item" data-category="food">
+                <img src="images/IMG_0721.jpeg" alt="Σπιτικό παστίτσιο">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0774.jpeg" alt="Φωτογραφία 16">
+            <div class="gallery-item" data-category="food">
+                <img src="images/IMG_0717.jpeg" alt="Τυρολουκουμάδες">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0779.jpeg" alt="Φωτογραφία 17">
+            <div class="gallery-item" data-category="food">
+                <img src="images/IMG_0719.jpeg" alt="Παραδοσιακές πατάτες με αυγά">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0780.jpeg" alt="Φωτογραφία 18">
+
+            <div class="gallery-item" data-category="space">
+                <img src="images/IMG_0779.jpeg" alt="Ζεστός βραδινός φωτισμός">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0781.jpeg" alt="Φωτογραφία 19">
+            <div class="gallery-item" data-category="space">
+                <img src="images/DSCF6983.jpg" alt="Τραπέζι με θέα στο ηλιοβασίλεμα">
             </div>
-            <div class="gallery-item">
-                <img src="images/IMG_0782.jpeg" alt="Φωτογραφία 20">
+            <div class="gallery-item" data-category="space">
+                <img src="images/IMG_0738.jpeg" alt="Ρομαντικό δείπνο δίπλα στο κύμα το σούρουπο">
             </div>
+            
+
         </div>
     </section>
 
