@@ -698,7 +698,6 @@ section {
         width: 80%;
         margin-bottom: 2rem;
     }
-
     
 }
 
@@ -884,7 +883,7 @@ section {
 /* Our Album page */
 .album-page .gallery-item {
     height: 35rem;  
-    padding: 2;
+    padding: 2px;
     background-color: transparent; 
     box-shadow: none; 
 }
@@ -895,19 +894,22 @@ section {
     object-fit: cover; 
     object-position: center 70%; 
     border-radius: .5rem;
-    max-height: 300px;
+    max-height: 330px;
     box-shadow: var(--box-shadow); 
     transition: transform 0.3s ease;
 }
 
 @media (max-width: 768px) {
     .album-page .gallery-item {
-        height: 25rem;
+        height: auto;
+    }
+    .album-page .gallery-item img {
+        height: auto;
+        max-height: none;
     }
 }
 
 /* NAVBAR */
-
 .header .container {
     max-width: 1400px; 
 }
